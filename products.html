@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+      padding-top: 56px; /* Adjusted padding to accommodate the fixed navbar */
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background-color: #ffffff;
+    }
+
+    .navbar-brand {
+      color: #FF7B00;
+    }
+
+    /* .navbar-brand img {
+      width: 40px; /* Adjust the width of the logo as needed */
+      height: auto;
+      margin-right: 20px; /* Add margin for spacing */
+    } */
+
+    .navbar-nav .nav-link {
+      color: #FF7B00 !important;
+    }
+    .nav-link {
+        color: #FF7B00;
+    }
+    .nav-link:hover{
+        color: white;
+        background: #FF7B00;
+    }
+    /* Footer styling */
+    footer {
+      background-color: #FFB700;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+    }
+   
+    /* Responsive styling */
+    @media (max-width: 768px) {
+      #home {
+        padding: 60px 0;
+      }
+
+      #services, #products, #internships, #jobs, #about, #contact {
+        padding: 60px 0;
+      }
+    }
+    .toggler{
+        background-color: #FF7B00;
+    }
+    /* Home Section styling */
+    #home {
+      text-align: center;
+      padding: 100px 0;
+      background-color: #FFB700;
+      color: #ffffff;
+    }
+  </style>
+  <title>CodScripto</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo.png" width="250" height="100">
+     </a>
+    <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M0,2v2h24v-2zM0,11v2h24v-2zM0,20v2h24v-2z"></path></g></g>
+            </svg>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#internships">Internships</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jobs">Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Welcome to CodScripto</h1>
+          <p>Your one-stop solution for web and mobile development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 CodScripto. All rights reserved.</p>
+  </footer>
+</body>
+</html>
