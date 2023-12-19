@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding-top: 56px;
+            /* Adjusted padding to accommodate the fixed navbar */
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #ffffff;
+        }
+
+        .navbar-brand {
+            color: #FF7B00;
+        }
+
+
+        .navbar-nav .nav-link {
+            color: #FF7B00 !important;
+        }
+
+        .nav-link {
+            color: #FF7B00;
+        }
+
+        .nav-item:hover {
+
+            /* background: #FF7B00; */
+            text-decoration: underline;
+            text-decoration-color: #FF7B00;
+
+
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: hsl(40, 100%, 1%);
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            #home {
+                padding: 60px 0;
+            }
+
+            #services,
+            #products,
+            #internships,
+            #jobs,
+            #about,
+            #contact {
+                padding: 60px 0;
+            }
+        }
+
+        .toggler {
+            background-color: #FF7B00;
+        }
+        .vision-mission {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .vision,
+        .mission {
+            width: 48%; /* Adjust the width as needed */
+        }
+
+        /* Home Section styling */
+        #home {
+            display: flex;
+            align-items: center;
+            /* Align items vertically center */
+            justify-content: center;
+            /* Center the content horizontally */
+            text-align: center;
+            height: 600px;
+            /* Set height to full viewport height */
+            background-color: #FFB700;
+            color: #ffffff;
+        }
+    </style>
+    <title>CodScripto - Products</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" width="250" height="100">
+        </a>
+        <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0,0,256,256">
+                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                    stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                    font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                    style="mix-blend-mode: normal">
+                    <g transform="scale(10.66667,10.66667)">
+                        <path d="M0,2v2h24v-2zM0,11v2h24v-2zM0,20v2h24v-2z"></path>
+                    </g>
+                </g>
+            </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#internships">Internships</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#jobs">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- contact section -->
+    <div class="container contact-form">
+        <h2>Contact Us</h2>
+        <p>Have a question or inquiry? Fill out the form below, and we'll get back to you as soon as possible.</p>
+    
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Type your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+    <br>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Connect with us</h4>
+              <p>Follow us on social media for updates and more:</p>
+              <!-- Add your social media icons and links here -->
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Information</h4>
+              <p>Email: info@codscripto.com</p>
+              <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
